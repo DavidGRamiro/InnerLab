@@ -1,15 +1,21 @@
 /*Estilado de la barra de navegación*/
+
+@import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fenix&family=Numans&display=swap');
+
 *{
 	margin: 0;
 }
 #contendor{
 	display:flex;
 	box-shadow: 20px 10px 20px  #4a9994;
+	font-family: 'Numans', sans-serif;
 }
 #logo{
 	width: 100px;
 	height: 100px;
 }
+
 #menu {
 	background: #0A2826;
 	color: #FFF;
@@ -18,6 +24,14 @@
 	display: flex;
 	width: 100%;
 	justify-content: flex-end;
+	font-family: 'Numans';
+}
+#menu #busca{
+	margin-right: 20px;
+	height: fit-content;
+	margin-top: auto;
+	margin-bottom: 12px;
+	border-radius: 10px;
 }
 #menu ul, #menu li {
 	list-style: none;
@@ -41,44 +55,59 @@
 	text-decoration: none;
 	color: #FFFFFF;
 	font-size: 16px;
-	border-radius: 20%;
+	border-radius: 15px;
 }
 #menu li a:hover {
-	color: #0099CC;
+	color: #b8811b;
 	background: #F2F2F2;
 }
 #menu ul.sub-menus{
 	height: auto;
 	overflow: hidden;
-	width: 170px;
+	width: 160px;
 	background: #1E7A72;
 	padding-left: 0px;
 	position: absolute;
-	z-index: 99;
 	display: none;
+	margin-top: 10px;
+	animation: barrido 0.5s ease-in-out;
 }
 #menu ul.sub-menus li {
 	display: block;
 	width: 100%;
 }
+
 #menu ul.sub-menus a {
 	background: #1E7A72;
-	font-size: 24px;
+	font-size: 16px;
 }
 #menu li:hover ul.sub-menus {
-	display: block
+	display: block;
+	border-radius: 15px;
 }
 #menu ul.sub-menus a:hover{
 	background: #1E7A72;
 	color: #b8811b;
 }
 
+@keyframes barrido {
+	from{
+		margin-top: 20px;
+		opacity:0;
+	}
+	to {
+		margin-top: 10px;
+		opacity: 1;
+	}
+}
+
+/**************************************************/
 /*Diseño del pie de página*/
 #footer{
 	position:fixed;
 	left:0px;
 	bottom:0px;
-	height: 120px;
+	height: 100px;
 	width: 100%;
 	background-color: #0A2826;
 	color:#FFFFFF;
@@ -87,5 +116,47 @@
 
 #footer #logo-footer{
 	margin:auto;
+}
+#footer a {
+	text-decoration: none;
+	color:#FFFFFF;
+	font-family: 'Numans';
+	margin:auto
+}
+
+/**************************************************/
+#editar{
+	margin: 40px;
+	height: 700px;
+	background-color: #b8811b;
+	padding-top: 50px;
+}
+#angela{
+  background: linear-gradient(
+    45deg,
+    rgba(30, 122, 114, 1) 5%,
+    rgba(167, 126, 75, 1) 77%,
+    rgba(255, 129, 50, 1) 96%
+  );
+  	background-blend-mode: normal;
+	width: fit-content;
+	margin-bottom: 100px;
+	padding: 20px;
+	width: 20%;
+	border-radius: 15px 15px 15px 15px;
+	font-family: 'Fenix', serif;
+	display:flex;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#angela h1 {
+	margin:auto;
+	font-size: 32px;
+}
+#logoPerfil{
+	width: 90px;
+	align-content: flex-start;
+	margin-right: 20px;
 }
 
