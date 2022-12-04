@@ -8,8 +8,9 @@
 </head>
 <body>
     <nav id='contendor'>
-        <img src ="/Pictures/InnerLab-Logox1.png" alt = "innerLab" id ="logo">
+        <img src ="Pictures/InnerLab-Logox1.png" alt = "innerLab" id ="logo">
         <div id ="menu">
+                <input type="search" id="busca" placeholder ="Estoy buscando..">
             <li><a class='dropdown-arrow' href='#'>Cursos</a>
                 <ul class='sub-menus'>
                     <li><a href='#'>Curso 1</a></li>
@@ -30,6 +31,55 @@
         </div>
     </nav>
     <section>
+        <div id = "editar">
+            <div id ="angela">
+                <img src ="/Pictures/Perfil.png" id ="logoPerfil">
+                <h1>Ángela Martinez</h1>
+            </div>
+            <div id = "panel">
+                <img src="Pictures/Perfil.png">
+                <input type = "file">
+                <img src ="Pictures/delete.png" id ="delete">
+            </div>
+            <div id ="contenedorFormulario">
+                    <label for ="nombre">Nombre</label>
+                    <br>
+                    <input type ="text">
+                    <br>
+                    <label for ="apellidos">Apellidos</label>
+                    <br>
+                    <input type ="text">
+                    <br>
+                    <label for ="apodo">Apodo</label>
+                    <br>
+                    <input type ="text">
+                    <br>
+                    <label for ="email">Email</label>
+                    <br>
+                    <input type ="text">
+                    <br>
+                    <label for ="ciudad">Ciudad</label>
+                    <br>
+                    <input type ="text">
+                    <br>
+                    <label for ="telf">Teléfono</label>
+                    <br>
+                    <input type ="text">
+                    <br>
+                    <input type ="submit" value ="Actualizar datos">
+                </form>
+            </div>
+            <div id = "dashboard">
+                <button>Perfil</button>
+                <button>Cuenta</button>
+                
+                <button>Cursos</button>
+                <button>Ajustes</button>
+                <button>Agenda</button>
+
+            </div>
+        </div>
+
     </section>
     <footer id = "footer">
         <a href ="#">Terapeutas</a>
