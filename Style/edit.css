@@ -26,6 +26,7 @@
 	justify-content: flex-end;
 	font-family: 'Numans';
 }
+
 #menu #busca{
 	margin-right: 20px;
 	height: fit-content;
@@ -33,19 +34,23 @@
 	margin-bottom: 12px;
 	border-radius: 10px;
 }
+
 #menu ul, #menu li {
 	list-style: none;
 	display:flex;
 	margin-right: 16px;
 	margin-top: 30px;
 }
+
 #menu ul {
 	width: 100%;
 }
+
 #menu li {
 	display: inline;
 	position: relative;
 }
+
 #menu a {
 	background: #1E7A72;
 	display: block;
@@ -57,10 +62,12 @@
 	font-size: 16px;
 	border-radius: 15px;
 }
+
 #menu li a:hover {
 	color: #b8811b;
 	background: #F2F2F2;
 }
+
 #menu ul.sub-menus{
 	height: auto;
 	overflow: hidden;
@@ -72,6 +79,7 @@
 	margin-top: 10px;
 	animation: barrido 0.5s ease-in-out;
 }
+
 #menu ul.sub-menus li {
 	display: block;
 	width: 100%;
@@ -81,10 +89,12 @@
 	background: #1E7A72;
 	font-size: 16px;
 }
+
 #menu li:hover ul.sub-menus {
 	display: block;
 	border-radius: 15px;
 }
+
 #menu ul.sub-menus a:hover{
 	background: #1E7A72;
 	color: #b8811b;
@@ -157,33 +167,41 @@
 	margin:auto;
 	font-size: 32px;
 }
+
 #logoPerfil{
 	width: 90px;
 	align-content: flex-start;
 	margin-right: 20px;
 }
+
 /*Input para cambiar la imagen */
  /***************************************************/
+
 #panel{
 	margin-top: 20px;
 	background-color: #FFF;
 	width:  fit-content;
 	margin-left: 51%;
 }
+
 #panel img{
 	width: 55px;
 	margin-bottom: -8px
 }
+
 /*Quitamos el texto por defecto de "ningún archivo seleccionado"*/
+
 input[type="file"] {
     color: transparent;
 	margin-left: 10px;
 	margin-right: -120px;
 	font-size: 16px;
 }
+
  #panel #delete{
 	width: 30px;
 }
+
 /*Estilado del formulario*/
 /**************************************************/
 
@@ -201,6 +219,7 @@ input[type="file"] {
 	width: fit-content;
 	border-radius: 10%;
 	padding: 40px;
+
 }
 input[type="submit"]{
 	margin: 20px 30px;
@@ -208,6 +227,7 @@ input[type="submit"]{
 	font-size: 16px;
 	border-radius: 15px;
 }
+
 /*Aside*/
 /***************************/
 
