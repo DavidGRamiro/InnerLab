@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Numans&display=swap');
 
 
+body{
+    min-width:1000px;  
+}
 
 h1{
 font-size: 60px;
@@ -21,11 +24,13 @@ text-align: left;
 	display:flex;
 	box-shadow: 20px 10px 20px  #4a9994;
 	font-family: 'Numans', sans-serif;
+    background-color: #0A2826;
 }
 
 #logo{
 	width: 100px;
 	height: 100px;
+    margin: 10px;
 }
 
 #menu ul.sub-menus{
@@ -49,6 +54,7 @@ text-align: left;
 	width: 100%;
 	justify-content: flex-end;
 	font-family: 'Numans';
+    margin: 10px;
 }
 
 #menu #busca{
@@ -126,6 +132,10 @@ text-align: left;
 
 /*** Fin Navbar ****/
 
+
+
+/** Section **/
+
 .text{
     
     font-family: Numans;
@@ -137,7 +147,6 @@ text-align: left;
     margin-right: 4%;
     }
 
-/** Section **/
 .container{
     display:flex;
     flex-direction: column;
@@ -151,6 +160,7 @@ text-align: left;
     width: auto;
     height: 380px;
     margin-bottom:5%;
+    margin-top:2%;
     /* border: 5px solid lightsalmon; */
 }
 
@@ -205,8 +215,8 @@ text-align: left;
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 245.49px;
-    height: 297.26px;
+    width: 325px;
+    height: 380px;
     border-radius : 13px;
     margin:6%;
   }
@@ -225,7 +235,7 @@ text-align: left;
   .cardContainer h4{
     color: #662700;
     font-family: Poppins;
-    font-size: 17px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 23px;
     letter-spacing: 0em;
@@ -235,7 +245,7 @@ text-align: left;
   .cardContainer p{
     color: #1E7A72;
     font-family: Poppins;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
@@ -268,3 +278,4 @@ text-align: left;
 	font-family: 'Numans';
 	margin:auto
 }
+

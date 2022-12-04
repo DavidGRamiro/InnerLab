@@ -10,10 +10,12 @@
 	display:flex;
 	box-shadow: 20px 10px 20px  #4a9994;
 	font-family: 'Numans', sans-serif;
+	background-color: #0A2826;
 }
 #logo{
 	width: 100px;
 	height: 100px;
+	margin: 10px;
 }
 
 #menu {
@@ -25,6 +27,7 @@
 	width: 100%;
 	justify-content: flex-end;
 	font-family: 'Numans';
+	margin: 10px;
 }
 
 #menu #busca{
